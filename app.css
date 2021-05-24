@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    background-color: rgb(38, 68, 97);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #19334d;
+}
+
+a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+}
+
+.title {
+    padding-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: .6em;
+    margin-bottom: 25px;
+}
+
+h2, h3{
+    font-weight: 100;
+    letter-spacing: .2em;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+/* about me page */
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto;
+    width: 80%;
+    height: 300px;
+}
+
+#portrait img {
+    width: 250px;
+    padding: 25px;
+}
+
+.aboutMe {
+    flex-direction: column;
+    padding: 15px;
+    margin-right: 15px;
+  
+}
+
+.projects-title {
+    margin: 25px 0 25px;
+
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+
+.card img{
+    width: 250px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(43, 43, 59);
+}
+
+.contactLinks img {
+    position: relative;
+    top: 8px;
+}
+
+@media (max-width: 768px) {
+
+    .card img {
+        size: 80%;
+    }
+
+
+/* changed to column layout to fit smaller screen */
+@media (max-width: 768px) {
+
+    body {
+        height: fit-content;
+        align-content: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+    .section-1 {
+        position: relative;
+        top: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card img {
+        width: 230px;
+
+    }
+
+    footer {
+        position: relative;
+    }
+
+}
