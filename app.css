@@ -118,6 +118,7 @@ footer a {
         width: 225px;
         height: 180;
     }
+}
 
 @media (max-width: 768px) {
 
@@ -141,23 +142,22 @@ footer a {
         font-size: 18px;
     }
 
-    .projects{
+    .projects { 
         align-items: center;
         flex-direction: column;
     }
 
     .card img {
         width: 230px;
-
     }
 
     footer {
         position: relative;
     }
 
-span {
-    display: none;
-}
+    span {
+        display: none;
+    }
 
     /* about me page */
     .section-1 {
@@ -166,9 +166,8 @@ span {
         display: flex;
         flex-direction: column;
     }
- #portrait img {
-     padding-bottom: 25px;
- }
 
-
+     #portrait img {
+        padding-bottom: 25px;
+    }
 }
